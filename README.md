@@ -32,7 +32,7 @@ Perform the following installation steps:
    ``migration_enabled`` in _application/config/migration.php_ to ``false`` if you no longer which
    to use / support migrations or for productive use!)
 6. Set ``sess_driver`` to ``database`` in _application/config/config.php_ (in order for the first
-   migration run to work this has to be set to ``files`)
+   migration run to work this has to be set to ``files``)
 7. Optional: Create a first user by browing to the action ``user/create``
 
 <hr>
